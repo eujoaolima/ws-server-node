@@ -9,4 +9,4 @@ const wss = appWs(server);
 
 setInterval(() => {
     wss.broadcast({ n: Math.random() });
-}, 1000);
+}, 3000);
